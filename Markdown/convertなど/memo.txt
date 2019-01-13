@@ -1,0 +1,3 @@
+pandoc test.md -o output.docx
+
+pandoc test.md -f markdown -t html5 -s -c github.css -o test.pdf
