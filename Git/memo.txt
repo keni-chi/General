@@ -1,0 +1,14 @@
+# コミット
+git add .
+git commit -m "{コメント}"
+git push origin {ブランチ名}
+
+# リセット
+git reset --hard origin/{ブランチ名}
+
+# マージ
+git fetch --all
+git add .
+git commit -m "{コメント}"
+git merge --no-ff origin/{マージ先ブランチ名}
+git statusで１つずつファイルを見てどちらかを選ぶ。
