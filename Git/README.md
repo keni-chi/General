@@ -37,3 +37,11 @@ git push origin {ブランチ名}
 ### ブランチ削除
 git branch -d {ブランチ名}
 git push origin :{ブランチ名}
+
+### gitレポジトリとhttpで通信する場合にユーザ情報の入力を省略
+ホームディレクトリに.netrcを以下内容で作成する。
+参考文献: https://qiita.com/r-tamura/items/c6e49a3eb7f7f8aafb9d
+>machine xxxx.com
+>login XXXXXXXX
+>password XXXXXXX
+>protocol https
