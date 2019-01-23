@@ -33,3 +33,7 @@ git rebase --continue
 git add .
 git commit -m "{コメント}"
 git push origin {ブランチ名}
+
+### ブランチ削除
+git branch -d {ブランチ名}
+git push origin :{ブランチ名}
