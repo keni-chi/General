@@ -1,0 +1,5 @@
+root.txt
+temp1
+temp1.txt
+temp2
+temp2.txt
