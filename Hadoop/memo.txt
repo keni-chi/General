@@ -1,0 +1,1 @@
+Clouderaを使った複数ホストへのHadoopインストール。
