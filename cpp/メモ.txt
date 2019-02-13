@@ -1,0 +1,18 @@
+
+g++ hello.cpp -o hello
+
+g++ shape.cpp --std=c++11 -o shape
+
+
+
+
+
+
+
+
+
+
+
+=====================
+g++ shape.cpp -o shape
+--std=c++11
