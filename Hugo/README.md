@@ -20,10 +20,10 @@ hugo server -D
 http://localhost:1313/  
 
 ### テーマ変更  
-git clone https://github.com/mismith0227/hugo_theme_pickles.git themes/hugo_theme_pickles　　
-hugo new posts/2回めの投稿.md　　
-hugo server -t hugo_theme_pickles -w -D　　
-http://localhost:1313/　　
+git clone https://github.com/mismith0227/hugo_theme_pickles.git themes/hugo_theme_pickles  
+hugo new posts/2回めの投稿.md  
+hugo server -t hugo_theme_pickles -w -D  
+http://localhost:1313/  
 
 ### 参考   
 https://www.imuza.com/entry/2018/02/09/164628   
