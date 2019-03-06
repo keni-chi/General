@@ -1,9 +1,11 @@
-# iPhoneApp
+# iOS(iPhoneApp,Homebrew,etc)
 
 ## 概要
-iOS上でXcodeを用いてswiftによるiPhoneアプリを開発するメモである。   
+Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプリの開発、などのメモである。   
 
-## シミュレータでの開発手順
+## iPhoneApp
+
+### シミュレータでの開発手順
 1. Xcodeをインストール  
 1. プロジェクトを作成  
 1. Main.storyboardをInterface Builderで編集する。  
@@ -12,7 +14,7 @@ iOS上でXcodeを用いてswiftによるiPhoneアプリを開発するメモで�
 1. 画像を登録  
 1. ビルド    
 
-## 実機での開発手順
+### 実機での開発手順
 1. AppleIDを取得。
 1. Xcodeにて、でAppleIDを追加。
 1. Xcodeにて、証明書を作成。
