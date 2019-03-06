@@ -34,7 +34,30 @@ iOS上でXcodeを用いてswiftによるiPhoneアプリを開発するメモで�
 - 「~~ is trusted on your device. ~~ to General -> Device Management, ~~」  
 これはiPhone側で「信頼」を設定すれば解決した。※2  
 
+
+## Homebrewインストール
+1. 以下urlにて、インストールコマンドを確認して実行する。   
+https://brew.sh/index_ja.html  
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. 動作環境確認
+```
+brew doctor
+```
+3. Warnig対応  
+.bash_profileにbrewコマンドのaliasを追加する。
+```
+alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+```
+4. バージョン確認
+```
+brew --version
+```  
+
 ## 参考
 [iPhoneアプリ](https://udemy.benesse.co.jp/development/ios/how-to-use-xcode.html)  
-[実機1](https://i-app-tec.com/ios/device-test.html)
-[実機2](https://qiita.com/segur/items/bef54efa7764885173bb)
+[実機1](https://i-app-tec.com/ios/device-test.html)  
+[実機2](https://qiita.com/segur/items/bef54efa7764885173bb)  
+[Homebrew1](https://qiita.com/krtsatoqiita/items/ba567acacb93a7a02dd9)  
+[Homebrew2](https://qiita.com/takuya0301/items/695f42f6904e979f0152)
