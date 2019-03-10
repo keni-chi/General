@@ -1,11 +1,10 @@
 # Markdown
 
-## �T�v
-�ȉ��Ȃǂɂ��Ē����A���{�����B
+## 概要
+以下などについて調査、実施した。
 
-- pandoc�ɂ��md����ւ̃R���o�[�g(html,pdf,word)
+- pandocによるmdからへのコンバート(html,pdf,word)
 
-- slide�̂悤�Ɍ�����
+- slideのように見せる
 
-- md��plantUML���C���|�[�g
-
+- mdでplantUMLをインポート
