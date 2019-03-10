@@ -1,7 +1,7 @@
 # iOS(iPhoneApp,Homebrew,etc)
 
 ## 概要
-Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプリの開発、などのメモである。   
+Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプリの開発、などの覚書である。   
 
 ## iPhoneApp
 
