@@ -16,9 +16,9 @@ Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプ
 
 ### 実機での開発手順
 1. AppleIDを取得。
-1. Xcodeにて、でAppleIDを追加。
+1. Xcodeにて、AppleIDを追加。
 1. Xcodeにて、証明書を作成。
-1. Mac とiPhone をLightning USB ケーブルで接続する。Xcodeにて、Simulator以外に実機も選択できるようになることを確認。
+1. MacとiPhoneをLightningUSBケーブルで接続する。Xcodeにて、Simulator以外に実機も選択できるようになることを確認。
 1. Xcodeにて、「General」の「Signing」に戻りTeamを今設定したApple ID。
 1. Xcodeにて、ビルド。※1
 1. iPhoneにて、「設定」「一般」から「デバイス管理」に入り、信頼すると設定。※2
