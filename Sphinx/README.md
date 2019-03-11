@@ -23,5 +23,5 @@ https://qiita.com/louvre2489/items/14271139626341f3fb27
 
 
 ## SAMでのビルド
-pip install sphinx_rtd_theme
+pip install sphinx_rtd_theme  
 make html
