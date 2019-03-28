@@ -18,13 +18,22 @@ openssl req -new -key Verify.key -out Verify.csr
 openssl x509 -req -in Verify.csr -CA CAroot.pem -CAkey CAroot.key -CAcreateserial -out Verify.crt -days 365 -sha256  
 証明書=署名付き公開鍵。公開鍵が誰の公開鍵であるかを証明している。  
 
+### 作成した証明書をAWS IoTへ登録
+- 証明書をAWS IoTへ登録  
+aws iot register-ca-certificate --ca-certificate file://CAroot.pem --verification-certificate file://Verify.crt  
+- statusとautoRegistrationStatusが有効化されていないので、これらを以下のコマンド有効にする。  
+aws iot update-ca-certificate --certificate-id $YOUR_CA_CERT_ID --new-status ACTIVE  
+aws iot update-ca-certificate --certificate-id $YOUR_CA_CERT_ID --new-auto-registration-status ENABLE  
+
 ### Device用証明書
 - 秘密鍵(deviceCert.key)  
 openssl genrsa -out deviceCert.key 2048  
 - 証明書署名要求(deviceCert.csr)  
 openssl req -new -key deviceCert.key -out deviceCert.csr  
-- 証明書(署名の実行)(deviceCertAndCA.crt)  
+- 証明書(署名の実行)(deviceCert.crt)  
 openssl x509 -req -in deviceCert.csr -CA ../CA/CAroot.pem -CAkey ../CA/CAroot.key -CAcreateserial -out deviceCert.crt -days 365 -sha256  
+- Just in Timeで利用する証明書を作成
+cat deviceCert.crt ../CA/CAroot.pem > deviceCertAndCA.crt
 
 
 ## 参考
