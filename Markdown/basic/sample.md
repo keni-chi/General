@@ -1,8 +1,11 @@
 ## コマンド
 
+- コード  
+インストールコマンドは `gem install hoge` です  
 
-インストールコマンドは `gem install hoge` です
-
+- 強調  
+normal **bold** normal  
+normal __bold__ normal  
 
 
 ## 参考
