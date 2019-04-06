@@ -1,0 +1,7 @@
+# スクラム
+
+## 概要
+覚書である。順次記載予定。
+
+## 参考
+[5分で分かる、「スクラム」の基本まとめ ](https://www.atmarkit.co.jp/ait/articles/1208/07/news128.html)
