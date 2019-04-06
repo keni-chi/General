@@ -5,3 +5,4 @@
 
 ## 参考
 [5分で分かる、「スクラム」の基本まとめ ](https://www.atmarkit.co.jp/ait/articles/1208/07/news128.html)
+[アジャイル開発とスクラム](https://swest.toppers.jp/SWEST15/data/s4b_proceeding.pdf)
