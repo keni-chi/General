@@ -12,6 +12,7 @@ General
 
 
 Infrastructure
+  LAMP
   Makefile
   terraform
   GitLab
