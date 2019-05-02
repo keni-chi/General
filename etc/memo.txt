@@ -26,6 +26,7 @@ Machine-Learning
 
 Python
   list_dict_sort
+  高速化
 
 
 Qiita
