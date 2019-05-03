@@ -29,9 +29,5 @@ Python
   高速化
 
 
-Qiita
-  SQS
-
-
 Web-Application
   MySQL

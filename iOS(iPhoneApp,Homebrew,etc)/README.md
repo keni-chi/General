@@ -30,7 +30,7 @@ Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプ
 これはiPhoneのiOSのバージョンを最新にすることで解決した。
 注意点として、「バージョンアップに時間がかかる(私の場合は30分くらいかかった)」「途中でフリーズするといた記事も散見される」、といったことがある。そのため、実行する前に「作業時間に余裕があるか(電話やLineも一時的にできなくなる)」「Wi-Fi環境は安定しているか(バージョンアップ失敗の要因となる)」「iPhoneデータのバックアップは取っているか」「もう使っていないiPhoneで試せないか」などを考慮した方が良い。
 
-- 「codesign ~~ キーチェーン ~~」    
+- 「codesign ~~ キーチェーン ~~」 
 これはMacBookのパスワードを入力すればOKだった。
 
 - 「~~ is trusted on your device. ~~ to General -> Device Management, ~~」  
@@ -38,28 +38,74 @@ Macbookでの開発環境、iOS上でXcodeを用いてswiftによるiPhoneアプ
 
 
 ## Homebrewインストール
+
 1. 以下urlにて、インストールコマンドを確認して実行する。   
 https://brew.sh/index_ja.html  
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
 2. 動作環境確認
 ```
 brew doctor
 ```
+
 3. Warnig対応  
 .bash_profileにbrewコマンドのaliasを追加する。
 ```
 alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
 ```
+
 4. バージョン確認
 ```
 brew --version
 ```  
+
+## yarn,nodeのインストール
+
+### 失敗
+brew install yarn  
+.base_profile にPATHを通す。
+```  
+export PATH="$HOME/.yarn/bin:$PATH"
+```  
+```  
+error angular-srcs@7.2.10: The engine "node" is incompatible with this module. Expected version ">=10.9.0 <11.0.0". Got "12.1.0"
+error angular-srcs@7.2.10: The engine "yarn" is incompatible with this module. Expected version ">=1.12.1 <=1.14.0". Got "1.15.2"
+error Found incompatible module
+```  
+
+npm install -g yarn@1.13  
+npm install -g node@10.9.0
+
+brew install node  
+.bash_profile  
+npm export PATH=“/usr/local/share/npm/bin:$PATH”
+
+
+### 成功
+[MacにNode.jsをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
+
+
+brew install nodebrew  
+nodebrew -v  
+echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile  
+mkdir -p ~/.nodebrew/src  
+nodebrew install-binary 10.9.0  
+
+nodebrew ls  
+nodebrew use v10.9.0  
+node -v  
+
+npm install -g yarn@1.13  
+
+
+
 
 ## 参考
 [iPhoneアプリ](https://udemy.benesse.co.jp/development/ios/how-to-use-xcode.html)  
 [実機1](https://i-app-tec.com/ios/device-test.html)  
 [実機2](https://qiita.com/segur/items/bef54efa7764885173bb)  
 [Homebrew1](https://qiita.com/krtsatoqiita/items/ba567acacb93a7a02dd9)  
-[Homebrew2](https://qiita.com/takuya0301/items/695f42f6904e979f0152)
+[Homebrew2](https://qiita.com/takuya0301/items/695f42f6904e979f0152)  
+[yarnを使ってみた](https://qiita.com/masterkey1009/items/50f95b1187646a7db385)
