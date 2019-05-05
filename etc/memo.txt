@@ -13,6 +13,7 @@ General
 
 Infrastructure
   LAMP
+  flask,MySQL
   Makefile
   terraform
   GitLab
