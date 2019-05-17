@@ -26,5 +26,5 @@ hugo server -t hugo_theme_pickles -w -D
 http://localhost:1313/    
 
 ### 参考   
-https://www.imuza.com/entry/2018/02/09/164628   
-https://qiita.com/spiegel-im-spiegel/items/eac7bf2a3c0fc19afcbf   
+[Hugo を試す](https://www.imuza.com/entry/2018/02/09/164628)  
+[ゼロから始める Hugo — インストールから Hello World まで](https://qiita.com/spiegel-im-spiegel/items/eac7bf2a3c0fc19afcbf)   
