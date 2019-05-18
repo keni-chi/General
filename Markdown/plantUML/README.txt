@@ -1,3 +1,2 @@
-以下、参考URLです。
+莉･荳九∝盾閠ザRL縺ｧ縺吶�
 http://www.bitwin.ne.jp/blog/?p=360
-

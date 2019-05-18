@@ -19,9 +19,9 @@ docs/source/myroom/index.rstを作成
 make html  
 
 ### 参考   
-https://qiita.com/louvre2489/items/14271139626341f3fb27
+[Sphinx入門〜ひとまず使ってみる〜](https://qiita.com/louvre2489/items/14271139626341f3fb27)
 
 
-## SAMでのビルド
+## SAM(OSS)でのビルド
 pip install sphinx_rtd_theme  
 make html
