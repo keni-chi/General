@@ -5,8 +5,8 @@
 
 ### 詳細
 ■コンソール
-set HTTP_PROXY=http://{ユーザ名}:{パスワード}@{IP}:{port}
-set HTTPS_PROXY=http://{ユーザ名}:{パスワード}@{IP}:{port}
+set HTTP_PROXY=http://{IP}:{port}
+set HTTPS_PROXY=http://{IP}:{port}
 
 set HTTP_PROXY=http://{ユーザ名}:{パスワード}@{IP}:{port}
 set HTTPS_PROXY=http://{ユーザ名}:{パスワード}@{IP}:{port}
