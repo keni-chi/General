@@ -12,4 +12,5 @@
 [ゼロから考える脆弱性対応](https://qiita.com/t_nakayama0714/items/16f987742e8e3ee48ffd)  
 [セキュリティとリスクマネジメント](https://qiita.com/jkr_2255/items/872e4cf7ae5040049793)  
 [チェックリストでリスクを見つけてプロジェクトを幸せにしよう](https://qiita.com/YusukeSaito/items/45d425c55bebf7aedb04)  
-[コミュニケーション規約・指針（メール、文章の書き方、心構え、推薦図書）](https://qiita.com/s-katsumata/items/4ff6dc52eeeb7de8bba7)  
+[コミュニケーション規約・指針（メール、文章の書き方、心構え、推薦図書）](https://qiita.com/s-katsumata/items/4ff6dc52eeeb7de8bba7)   
+[PMBOK®ガイド 第5版紹介シリーズ 第2回 　ISO 21500について](https://www.pmi-japan.org/topics/pmi1/pmbok5_2.php)  
