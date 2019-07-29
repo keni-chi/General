@@ -14,3 +14,4 @@
 [チェックリストでリスクを見つけてプロジェクトを幸せにしよう](https://qiita.com/YusukeSaito/items/45d425c55bebf7aedb04)  
 [コミュニケーション規約・指針（メール、文章の書き方、心構え、推薦図書）](https://qiita.com/s-katsumata/items/4ff6dc52eeeb7de8bba7)   
 [PMBOK®ガイド 第5版紹介シリーズ 第2回 　ISO 21500について](https://www.pmi-japan.org/topics/pmi1/pmbok5_2.php)  
+[プロジェクトマネージャが行うべきただ一つのこと。](https://qiita.com/_Nanagin/items/1892198016b7df890a78)  
