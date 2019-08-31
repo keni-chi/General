@@ -10,4 +10,5 @@
 [見積りのためだけじゃなかった！　プランニングポーカーが開発チームとプロダクトにもたらす8の恩恵](http://appresso.hatenablog.com/entry/2016/08/03/181355)  
 [スクラムの概要を1分で理解できるイラスト【2018版】](https://www.ryuzee.com/contents/blog/7124)  
 [スクラムにおける技術的スパイクの進め方](https://www.ryuzee.com/contents/blog/7121)  
-[【スクラム入門】認定スクラムマスターの俺が正しいスクラムの理論をまとめる](https://qiita.com/gold-kou/items/90ba982a14ca79d843c9)
+[【スクラム入門】認定スクラムマスターの俺が正しいスクラムの理論をまとめる](https://qiita.com/gold-kou/items/90ba982a14ca79d843c9)  
+[スクラム入門](https://qiita.com/wMETAw/items/25972e4708311ed4f779)  
