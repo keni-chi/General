@@ -41,4 +41,4 @@
 
 ## 参考
 [ロジカルシンキングとは？ 鍛え方とフレームワークを紹介](https://www.recurrent.jp/articles/what-is-logicalthinking)  
-[【訓練法】ロジカルシンキングとは？ 思考力の鍛え方とフレームワークを紹介](https://www.kaonavi.jp/dictionary/logical-thinking/  )
+[【訓練法】ロジカルシンキングとは？ 思考力の鍛え方とフレームワークを紹介](https://www.kaonavi.jp/dictionary/logical-thinking/)  
