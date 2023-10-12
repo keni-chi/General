@@ -108,4 +108,7 @@ npm install -g yarn@1.13
 [実機2](https://qiita.com/segur/items/bef54efa7764885173bb)  
 [Homebrew1](https://qiita.com/krtsatoqiita/items/ba567acacb93a7a02dd9)  
 [Homebrew2](https://qiita.com/takuya0301/items/695f42f6904e979f0152)  
-[yarnを使ってみた](https://qiita.com/masterkey1009/items/50f95b1187646a7db385)
+[yarnを使ってみた](https://qiita.com/masterkey1009/items/50f95b1187646a7db385)  
+[【2020年版】 React NativeでiOSアプリを作ってストアでリリースしてみた](https://qiita.com/ariiyu/items/93a2d829df684c02ea5d)  
+[Windows機でiOSアプリの開発から実機インストールまで行ってみる【ReactNative】～開発編～](https://qiita.com/BanaoLihua/items/ef37009849917e3e56ff)  
+[ReactNativeだとカメラアプリくらいなら1時間で作れた](https://qiita.com/yotsak/items/687c79b2108b1435a2bc)  
